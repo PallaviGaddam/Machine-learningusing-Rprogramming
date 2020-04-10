@@ -36,3 +36,4 @@ test_set=subset(data,split==FALSE)
 #scaling the train and test data sets
 training_set[,2:3]=scale(training_set[,2:3])
 test_set[,2:3]=scale(test_set[,2:3])
+
